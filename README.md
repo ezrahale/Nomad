@@ -1,6 +1,6 @@
 # Nomad
 
-# NOMAD v2.1 — Field Agent Node
+# NOMAD v1 — Field Agent
 
 > A portable, secure, and modular reconnaissance & analysis toolkit for low-profile digital operations. Designed for signal awareness, system profiling, and offline intelligence gathering.
 
@@ -21,39 +21,39 @@ All sessions are timestamped, structured, and locally stored — no cloud, no de
 
 ---
 
-## 🧰 Modes & Tools
+##  Modes & Tools
 
-### 1. 🛰️ Recon Mode
+### 1. 🛰 Recon Mode
 - Maps local subnet, devices, and ports
 - Captures nearby Wi-Fi networks
 - Scans BLE and GPS (if enabled)
 - Auto-labels MACs by vendor
 - Stores full session logs and summaries
 
-### 2. 📡 Signal Analyzer
+### 2.  Signal Analyzer
 - Wi-Fi signal snapshot
 - BLE beacon scanner
 - Signal strength monitoring over time
 - Interface health and RF state
 - Combines into one `signal_report.txt`
 
-### 3. 🎯 Trap Mode (Coming)
+### 3.  Trap Mode (Coming)
 - Fake AP or honeypot mode
 - Device attraction + behavior logging
 
-### 4. 🔍 Device Profiler
+### 4.  Device Profiler
 - Gathers internal hardware + OS stats
 - CPU, memory, uptime, MACs, open ports
-
-### 5. 🗃️ Session Summary
+  
+### 5. Session Summary
 - Browse past session logs easily
 
-### 6. 🔥 Emergency Wipe
+### 6. Emergency Wipe
 - Securely delete all ops & logs
 
 ---
 
-## 📁 Data Structure
+## Data Structure
 
 All logs are saved in organized folders:
 
